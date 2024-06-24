@@ -1,0 +1,174 @@
+:root {
+    --cor1: #000814;
+    --cor2: #001d3d;
+    --cor3: #003566;
+    --cor4: #ffc300;
+    --cor5: #ffd60a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    gap: 20vh;
+}
+
+header {
+    background-color: var(--cor4);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: flex-start;
+    gap: 2rem;
+    min-height: 60vh;
+    margin-top: 15vh;
+    align-self: flex-start;
+    width: 100vw;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: var(--cor2);
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color: var(--cor3);
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    gap: 20rem;
+    margin: 0 5rem; 
+}
+
+.definicao {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.instrucao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.instrucao p {
+    display: flex;
+    flex-direction: column;
+    background-color: #004a8f;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 350px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--cor5);
+    font-weight: 500;
+    align-self: center;
+    margin: 0 5rem;
+    text-align: center;
+    gap: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+#definicao {
+    width: 30rem;
+}
+
+#gif {
+    width: 30vw;
+}
+
+main {
+    width: 95rem;
+    background-color: var(--cor3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    min-height: 840px;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.cenario img {
+    border: solid black;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 1rem;
+    margin-top: -2rem;
+}
+
+.container .element {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.cenario {
+   display: flex;
+   gap: 1rem;
+}
+
+#monica {
+    width: 10rem;
+}
+
+#magali {
+    width: 10rem;
+    height: 10rem;
+}
+
+#cebolinha {
+    width: 9rem;
+    height: 9rem;
+}
+
+#cascao {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 1rem;
+}
+
+.balao {
+    width: 8rem;
+}
+
+#balao {
+    width: 20rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    align-self: flex-start;
+    color: var(--cor4);
+}

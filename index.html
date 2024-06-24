@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="move('element')">
+    <header>
+        <div class="hero">
+            <div class="definicao">
+                    <h1>tirinhas</h1>
+                    <h3>O que são tirinhas?</h3>
+                    <img id="definicao" src="assets/definicao.png" alt="">
+                </div>
+                <div class="instrucao">
+                    <h1>instrução</h1>
+                    <p>Arraste os elementos e crie sua própria tirinha
+                    <img id="gif" src="assets/gif.gif" alt=""></p>
+                    
+                </div>
+        </div>
+    </header>
+    <main>
+        <h2>espaço:</h2>
+        <div class="cenario">
+            <div class="cenario_esquerda"><img src="assets/cenario-esquerda.jpg" alt=""></div>
+            <div class="cenario_direita"><img src="assets/cenario-direita.jpg" alt=""></div>
+            <div class="cenario_duplo"><img src="assets/cenario.jpg" alt=""></div>
+        </div>
+        <h2>personagens:</h2>
+        <div class="containers">
+            <div class="container">
+                <div class="element"><img id="monica" src="assets/monica-esquerda.png" alt=""></div>
+                <div class="element"><img id="magali" src="assets/magali-frente.png" alt=""></div>
+                <div class="element"><img src="assets/cebolinha-direita.png" alt="" id="cebolinha"></div>
+                <div class="element"><img src="assets/cascao-frente.png" alt="" id="cascao"></div>
+                <div class="element"><img id="monica" src="assets/monica-esquerda.png" alt=""></div>
+                <div class="element"><img id="magali" src="assets/magali-frente.png" alt=""></div>
+                <div class="element"><img src="assets/cebolinha-direita.png" alt="" id="cebolinha"></div>
+                <div class="element"><img src="assets/cascao-frente.png" alt="" id="cascao"></div>
+            </div>
+        </div>
+            <h2>diálogos:</h2>
+        <div class="containers">
+            <div class="container">
+                <div class="element"><img src="assets/balao-4.png" alt="" class="balao"></div>
+                <div class="element"><img src="assets/balao-2.png" alt="" class="balao"></div>
+                <div class="element"><img src="assets/balao-1.png" alt="" class="balao"></div>
+                <div class="element"><img src="assets/balao-3.png" alt="" class="balao"></div>
+                <div class="element"><img src="assets/balao-5.png" alt="" id="balao"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
